@@ -1,0 +1,22 @@
+declare
+int x, y, z;
+int w;
+
+begin
+read w;
+read x;
+read y;
+read z;
+
+if(x > y) then
+	write x;
+else
+	write y;
+	x := 0;
+	while(x < 10) do 
+		write x;
+		x := x + 1;
+	done;	
+fi;
+write x;
+end

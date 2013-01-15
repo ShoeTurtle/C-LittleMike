@@ -1,0 +1,11 @@
+declare
+int x, y, z;
+
+begin
+read x;
+read y;
+z := x + y;
+write z;
+end
+
+

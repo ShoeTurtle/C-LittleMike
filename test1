@@ -1,0 +1,15 @@
+declare
+int x, y;
+int sum;
+
+begin
+read x;
+read y;
+
+sum := x + y;
+write sum;
+end
+
+
+
+

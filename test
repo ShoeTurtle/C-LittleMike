@@ -1,0 +1,13 @@
+declare
+	int x, y; 
+begin
+	x;
+	read y;
+	if (x < y)
+	then
+		write x;
+	else
+		write y;
+	fi;
+	
+end
